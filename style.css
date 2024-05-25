@@ -10,32 +10,12 @@ header {
     border-bottom: 3px solid white;  
 }
 
-nav {
-    padding: 25px 100px 25px 95px;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav a {
-    padding: 25px;
-}
-
-.nav-link {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    border-bottom: 5px double white;
-}
 
 h1 {
     text-align: center;
-    color: white;
 }
 
-.info {
+section {
     flex-wrap: wrap;
     width: 1100px;
     margin: 0px;
@@ -43,52 +23,16 @@ h1 {
 }
 
 article {
-    background-color: white;
-    padding: 45px;
-    width: 400px;
+    background-color: wheat;
+    padding: 50px 50px 50px 50px;
+    width: 200px;
+    height: 200px;
     margin: 20px;
     text-align: center;
     border: 5px double black;
 }
 
 article img {
-    width: 300px;
-}
-
-.article-but {
-    text-decoration: none;
-    background-color: #0f0042;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px 75px 10px 75px;
-}
-
-.article-but:hover {
-    background-color: rgb(0, 0, 122);
-    border: 2px double rgb(0, 0, 44);
-}
-
-.main {
-    font-size: 24px;
-}
-
-.main:hover {
-    font-size: 28px;
-}
-
-.mainH1:hover {
-    font-size: 35px;
-}
-
-footer p {
-    color: white;
-    font-size: 16px;
-    text-align: center;
-}
-
-footer {
-    background-color: #0f0042;
-    border-top: 3px solid white;
-    border-bottom: 3px solid white;
+    border: 2px solid black;
+    height: 150px;
 }
